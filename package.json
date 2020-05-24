@@ -1,0 +1,27 @@
+{
+  "name": "ts_setting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "entry": "index.js",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^10.0.3",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "gts": "^2.0.0",
+    "jest": "^25.4.0",
+    "prettier": "^2.0.4",
+    "typescript": "~3.8.0"
+  },
+  "scripts": {
+    "dev": "npx ts-node src/index.ts"
+  },
+  "dependencies": {
+    "ts-node": "^8.9.0"
+  }
+}
